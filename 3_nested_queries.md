@@ -13,7 +13,7 @@ from Flights, (select sum(Capacity) as TotalCapacity, Company
 where Q1.company = Flights.Company
 ```
 
-![nested](data_poznamky/nested_query.png)
+![nested](data_poznamky/nested_queries.png)
 
 - vnárať sa môžem v ```FROM``` aj v ```JOIN```och a v ich podmienkach
 
