@@ -80,6 +80,16 @@ inner join Cinemas
 on Cinemas.Capacity = Program.Tickets
 order by Program.Name, Program.Day;
 
+-- Skúšam nested queries
+-- získaj poèet pasažierov a celkovú prepravnú kapacitu
+-- všetkých spoloèností, ktoré vlastnia lietadlo
+select Flights.Company, sum(Flights.Passengers), min(Q1.TotalCapacity)
+from Flights, (
+	select sum(Capacity) as TotalCapacity, Company
+	from Planes
+	group by Company) as Q1
+where Q1.Company = Flights.Company
+group by Flights.Company
+
 select *
-from Program
- 
+from Flights
