@@ -78,4 +78,8 @@ select Program.*
 from Program
 inner join Cinemas
 on Cinemas.Capacity = Program.Tickets
-order by Program.Name, Program.Day
+order by Program.Name, Program.Day;
+
+select *
+from Program
+ 
