@@ -13,7 +13,7 @@ riadky, ktoré spĺňajú podmienku)
 
 - umožňuje oddeliť príkazy na výber dát od príkazov na spájanie tabuliek
 
-![inner_join](data_poznamky/inner_join_1.png)
+![inner_join](../data_poznamky/inner_join_1.png)
 
 ```sql
 -- Vypíšte zoznam všetkých premietaní, keď bolo kino vypredané.
@@ -39,7 +39,7 @@ _TODO : zisti ako sa dá natural join použiť v Microsoft SQL server management
 _TODO : zisti, ako sa dá union join použiť v Microsoft SQL server management studiu_
 
 - z vysvetlenia Kopeckého by to malo zrejme vyzerať nejako takto :
-![union_join](data_poznamky/union_join_1.png)
+![union_join](../data_poznamky/union_join_1.png)
 
 ### Ako funguje ```OUTER JOIN``` ?
 
@@ -49,6 +49,6 @@ riadok z druhej tabuľky, tak sa tento riadok vo výsledku nevyskytuje
 - ```LEFT OUTER JOIN``` každý riadok v ľavej tabuľke je vždy vo výsledku a pokiaľ sú k nemu k dispozícii riadky z ostatných tabuliek, tak sú uvedené vo výsledku, ináč sú
 všade, kde sa nepodarilo priradiť riadok null hodnoty
 
-![outer_join](data_poznamky/outer_join_1.png)
+![outer_join](../data_poznamky/outer_join_1.png)
 
 - ```RIGHT | FULL OUTER JOIN``` analogicky

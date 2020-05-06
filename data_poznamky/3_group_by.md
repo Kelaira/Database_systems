@@ -10,4 +10,4 @@ môže vytvoriť multimnožiny (multi -> môžu obsahovať opakujúce sa prvky)
     - napríklad : ```MIN```, ```COUNT```, ```MAX``` , ```AVG```, ```SUM```
 
 - prípadne takúto tabuľku s množinami môžem dotazovať pomocou ```HAVING```
-![poradie](data_poznamky/group_by.png)
+![poradie](../data_poznamky/group_by.png)
