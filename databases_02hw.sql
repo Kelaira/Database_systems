@@ -71,3 +71,11 @@ select Program.*
 from Program, Cinemas 
 where Program.Tickets = Cinemas.Capacity
 order by Program.Name, Program.Day
+
+-- Vypíšte zoznam všetkých premietaní, keï bolo kino vypredané.
+-- Strieïte výsledok pod¾a mena kina a ïalej pod¾a dátumu premietania
+select Program.*
+from Program
+inner join Cinemas
+on Cinemas.Capacity = Program.Tickets
+order by Program.Name, Program.Day
