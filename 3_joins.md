@@ -1,3 +1,5 @@
+[Týmito poznámkami sa zaoberá časť prednášky do 18:30](https://tirpitz.ms.mff.cuni.cz/contactless/lecture03b_CZ_web.mp4)
+
 ### Ako funguje ```INNER JOIN``` ?
 - INNER JOIN priraďuje každý riadok v jednej tabuľke ku každému
 riadku v druhej tabuľke a umožňuje dotazovať riadky, ktoré obsahujú 
@@ -46,5 +48,7 @@ riadok z druhej tabuľky, tak sa tento riadok vo výsledku nevyskytuje
 
 - ```LEFT OUTER JOIN``` každý riadok v ľavej tabuľke je vždy vo výsledku a pokiaľ sú k nemu k dispozícii riadky z ostatných tabuliek, tak sú uvedené vo výsledku, ináč sú
 všade, kde sa nepodarilo priradiť riadok null hodnoty
+
+![outer_join](data_poznamky/outer_join_1.png)
 
 - ```RIGHT | FULL OUTER JOIN``` analogicky
