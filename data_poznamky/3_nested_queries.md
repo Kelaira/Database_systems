@@ -1,4 +1,5 @@
 [Časť prednášky od 26:00 do konca](https://tirpitz.ms.mff.cuni.cz/contactless/lecture03b_CZ_web.mp4)
+
 ### Ako fungujú nested queries ?
 
 - jednotlivé dotazy môžeme vnárať do seba
@@ -22,7 +23,8 @@ order by TotalCapacity desc
 
 ### Ako funguje ```TOP``` ?
 
-
+- syntax ```select top k```, vyberie ```k``` prvých výsledkov
+- best practice : najprv použi ```order by```, ináč sa vyberie náhodných prvých ```k``` riadkov, čo je k hovnu
 
 ![nested](../data_obrazky/nested_queries.png)
 
