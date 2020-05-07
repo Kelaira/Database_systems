@@ -23,7 +23,7 @@ order by TotalCapacity desc
 
 ### Ako funguje ```TOP``` ?
 
-- syntax ```select top k```, vyberie ```k``` prvých výsledkov
+- syntax ```select top (k)```, vyberie ```k``` prvých výsledkov
 - best practice : najprv použi ```order by```, ináč sa vyberie náhodných prvých ```k``` riadkov, čo je k hovnu
 
 ![nested](../data_obrazky/nested_queries.png)
