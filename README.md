@@ -4,4 +4,4 @@ Tento projekt obsahuje poznámky k predmetu Databázové systémy vyučovanému 
 
 Pre prehľadnosť je každý koncept uložený v samostatnom súbore. Témy sú vysvetlené pomocou obrázkov aj slovných komentárov. Takisto sú uvedené riešenia domácich úloh zadávaných na cvičení.
 
-Projekt má slúžiť v prvom rade ako študijný materiál pre poslucháčov prednášky. Sú vítané akékoľvek pripomienky, vylepšenia a vlastné poznámky!
+Projekt má slúžiť v prvom rade ako poznámky z prednášky. Sú vítané akékoľvek pripomienky, vylepšenia a vlastné materiály!
