@@ -13,3 +13,5 @@ create view view_name as
 ```
 
 ![data_views](../data_obrazky/data_views.png)
+
+RADK
