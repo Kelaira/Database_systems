@@ -17,7 +17,7 @@ group by Flights.Company
 order by TotalCapacity desc
 ```
 
-- vnárať sa môžem v ```FROM``` aj v ```JOIN```och a v ich podmienkach
+- vnárať sa môžem v ```FROM``` aj v ```JOIN```och a v ich podmienkach (teda vo ```where``` a ```on``` klauzulách)
 - keď sa vnáram, potrebujem upozorniť ```MS SQL Server Manager```, že chcem pracovať s tabuľkou vytvorenou vo vnorení
   - preto potrebujem kľúčové slovo ```AS```, ktoré premenuje výsledok vnorenia
 
@@ -27,4 +27,11 @@ order by TotalCapacity desc
 - best practice : najprv použi ```order by```, ináč sa vyberie náhodných prvých ```k``` riadkov, čo je k hovnu
 
 ![nested](../data_obrazky/nested_queries.png)
+
+### ```EXISTS``` a ```NOT EXISTS``` operátory
+
+---
+
+- vracia ```TRUE``` alebo ```FALSE``` teda je vhodný do ```where``` klauzúl
+- je rýchlejšie testovať existenciu ako rátať počty, to znamená, že ```exists ( select ...)``` je rýchlejšie ako ```(select count(distinct *) ...) = 0``` 
 
